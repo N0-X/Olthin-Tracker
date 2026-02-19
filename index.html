@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Initiative Tracker</title>
+    <style>
+    body {
+        font-family: sans-serif;
+        background: #1e1e1e;
+        color: white;
+        padding: 10px;
+    }
+
+    button {
+        margin: 2px;
+        padding: 4px 8px;
+    }
+
+    .active {
+        border: 2px solid gold;
+        padding: 4px;
+    }
+
+    .combatant {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        margin-bottom: 6px;
+    }
+
+        img {
+        width: 32px;
+        height: 32px;
+        border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+<h3>Rodada: <span id="round">1</span></h3>
+
+<button onclick="addSelected()">Adicionar Selecionado</button>
+<button onclick="nextTurn()">Próximo Turno</button>
+
+<hr/>
+
+<div id="list"></div>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>
