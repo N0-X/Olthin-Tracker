@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "manifest_version": 1,
     "name": "Action Initiative Tracker",
     "version": "1.0.0",
@@ -8,4 +9,12 @@
         "title": "Initiative Tracker",
         "icon": "/icon.png"
     }
+=======
+  "manifest_version": 1,
+  "name": "Action Initiative Tracker",
+  "version": "1.0.0",
+  "author": "Seu Nome",
+  "icon": "/icon.png",
+  "background_url": "/index.html"
+>>>>>>> 08f3b0b9d03e241350bea0739799a1aeac116005
 }
