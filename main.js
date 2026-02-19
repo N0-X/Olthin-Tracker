@@ -1,4 +1,9 @@
 import OBR from "https://unpkg.com/@owlbear-rodeo/sdk/dist/index.mjs";
+import OBR from "https://unpkg.com/@owlbear-rodeo/sdk/dist/index.mjs";
+
+OBR.onReady(() => {
+    sOBR.action.setBadgeText("⚔️");
+});
 
 let combatState = {
     round: 1,

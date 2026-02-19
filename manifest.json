@@ -1,8 +1,11 @@
 {
+    "manifest_version": 1,
     "name": "Action Initiative Tracker",
     "version": "1.0.0",
-    "manifest_version": 1,
     "author": "Seu Nome",
-    "icon": "icon.png",
-    "entry": "index.html"
+    "icon": "/icon.png",
+    "action": {
+        "title": "Initiative Tracker",
+        "icon": "/icon.png"
+    }
 }
