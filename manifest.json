@@ -1,8 +1,8 @@
 {
-    "name": "Action Initiative Tracker",
-    "version": "1.0.0",
-    "manifest_version": 1,
-    "author": "Seu Nome",
-    "icon": "icon.png",
-    "entry": "index.html"
+  "manifest_version": 1,
+  "name": "Action Initiative Tracker",
+  "version": "1.0.0",
+  "author": "Seu Nome",
+  "icon": "/icon.png",
+  "background_url": "/index.html"
 }
